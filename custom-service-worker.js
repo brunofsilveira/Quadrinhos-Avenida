@@ -11,7 +11,12 @@ workbox.routing.registerRoute(
     new workbox.strategies.NetworkFirst()
 )
 
+// workbox.routing.registerRoute(
+//     'http://localhost:3000/',
+//     new workbox.strategies.NetworkFirst()
+// )
+
 workbox.routing.registerRoute(
-    'http://localhost:3000/',
+    'https://brunofsilveira.github.io/Quadrinhos-Avenida/',
     new workbox.strategies.NetworkFirst()
 )
