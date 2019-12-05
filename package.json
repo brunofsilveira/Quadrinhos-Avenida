@@ -2,6 +2,7 @@
   "name": "aulas",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://brunofsilveira.github.io/quadrinhos-avenida/",
   "dependencies": {
     "babel-preset-react-app": "^9.0.2",
     "firebase": "^7.1.0",
@@ -15,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy:gh-pages": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
