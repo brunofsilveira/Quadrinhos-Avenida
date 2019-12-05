@@ -12,7 +12,7 @@ workbox.routing.registerRoute(
 )
 
 // workbox.routing.registerRoute(
-//     'http://localhost:3000/',
+//     'http://localhost:3000/#/',
 //     new workbox.strategies.NetworkFirst()
 // )
 
