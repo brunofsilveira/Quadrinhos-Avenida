@@ -17,6 +17,6 @@ workbox.routing.registerRoute(
 // )
 
 workbox.routing.registerRoute(
-    'https://brunofsilveira.github.io/Quadrinhos-Avenida/',
+    'https://brunofsilveira.github.io/Quadrinhos-Avenida/#/',
     new workbox.strategies.NetworkFirst()
 )
